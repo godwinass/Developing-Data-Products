@@ -64,10 +64,10 @@ shinyUI(
                       )
              ),
              tabPanel("SourceCode",
-                      p("part1_devdataprod-shiny"),
-                      a("https://gist.github.com/vidhyajv/b087471ef496fbf1fb13/")
+                      p("https://github.com/godwinass/Developing-Data-Products/blob/master/server.R"),
+                      a("https://github.com/godwinass/Developing-Data-Products/blob/master/ui.R")
              ),
-             tabPanel("Special",
+             tabPanel("Repository",
                       a("https://github.com/godwinass/Developing-Data-Products"),
                       hr(),
                       tags$iframe(src="part0_regmods-mtcars.html", 
